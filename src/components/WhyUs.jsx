@@ -181,7 +181,7 @@ export default function WhyUs() {
           <div 
             className="rounded-3xl border p-6 sm:p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300"
             style={{ 
-              background: '#1A1A1E',
+              background: '#121213',
               borderColor: '#2A2A2E'
             }}
           >

@@ -186,21 +186,6 @@ function MobileCollage() {
           alt={collageImages[1].alt}
           className="w-full h-44 sm:h-48 object-cover rounded-2xl shadow-2xl"
         />
-        <div 
-          className="absolute bottom-3 right-3 rounded-xl shadow-2xl border px-3 py-2 flex items-center gap-2"
-          style={{ 
-            background: '#1A1A1E',
-            borderColor: '#2A2A2E'
-          }}
-        >
-          <span className="shrink-0 w-7 h-7 rounded-full flex items-center justify-center" style={{ background: '#E61935' }}>
-            <Users className="w-3.5 h-3.5 text-white" />
-          </span>
-          <div className="leading-tight">
-            <p className="text-white font-extrabold text-xs" style={{ fontFamily: "'Fraunces', serif" }}>2,500+</p>
-            <p className="text-[10px]" style={{ color: '#B0B0B8' }}>Placed</p>
-          </div>
-        </div>
       </div>
     </div>
   );

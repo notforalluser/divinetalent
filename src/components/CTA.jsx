@@ -9,7 +9,7 @@ const CTA = () => {
       `}</style>
       
       <div className="relative max-w-5xl mx-auto text-center py-8 px-6 sm:px-10 rounded-3xl shadow-2xl overflow-hidden" style={{ 
-        background: '#1A1A1E'
+        background: '#121213'
       }}>
         {/* decorative glow accents - red/white subtle */}
         <div className="pointer-events-none absolute -top-24 -right-16 w-72 h-72 rounded-full blur-3xl" style={{ 

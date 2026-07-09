@@ -220,22 +220,22 @@ export default function Navbar() {
       {/* Main Navbar - Initially rounded, becomes full width when scrolled */}
       <header 
         className={`sticky top-0 z-50 border-b border-gray-800 transition-all duration-300 ${
-          isScrolled ? 'bg-black/90 backdrop-blur-lg' : 'bg-black/90 backdrop-blur p-2'
+          isScrolled ? 'bg-black/90 backdrop-blur-lg' : 'bg-black/90 backdrop-blur py-2'
         }`}
       >
         <div className={`transition-all duration-300 ${
-          isScrolled ? 'w-full px-4 sm:px-6 lg:px-8' : 'max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'
+          isScrolled ? 'w-full px-4 sm:px-6 lg:px-8' : 'max-w-7xl mx-auto lg:px-8'
         }`}>
           <nav className={`flex h-16 items-center justify-between transition-all duration-300 ${
             isScrolled 
               ? 'bg-black/50 w-full rounded-none' 
-              : 'bg-white/10 rounded-xl'
+              : 'bg-white/10 md:rounded-xl w-full p-3'
           }`}>
             <Link to="/" className="flex items-center gap-2 font-display text-xl font-semibold shrink-0">
               <img src={logo} alt="Career Launchpad" className={`w-auto rounded-md ${
             isScrolled 
               ? 'h-12' 
-              : 'h-15'
+              : 'h-12 md:h-15'
           }`} />
             </Link>
 
