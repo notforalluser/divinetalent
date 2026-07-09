@@ -259,12 +259,12 @@ export default function Navbar() {
                 onMouseEnter={() => setServicesOpen(true)}
                 onMouseLeave={() => setServicesOpen(false)}
               >
-                <button
-                  onClick={() => setServicesOpen(!servicesOpen)}
+                <Link
+                  to="/services"
                   className="flex items-center gap-1 text-md font-medium text-gray-300 hover:text-white transition-colors"
                 >
                   Services <ChevronDown size={14} />
-                </button>
+                </Link>
                 {servicesOpen && (
                   <div className="absolute left-1/2 top-full w-72 -translate-x-1/2 pt-3">
                     <div 

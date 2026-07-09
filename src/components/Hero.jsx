@@ -310,7 +310,7 @@ function Hero() {
         </div>
 
         {/* Image Cards - Dark surfaces */}
-        <div className="mt-20 md:mt-24 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-end">
+        <div className="mt-10 md:mt-24 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-end">
           {cards.map((item, index) => {
             const isFeatured = item.featured;
             const asymmetricRadius =
@@ -334,7 +334,7 @@ function Hero() {
                     : "0 20px 45px -15px rgba(0,0,0,0.5)",
                 }}
               >
-                <div className={isFeatured ? "h-[440px] md:h-[500px]" : "h-[360px] md:h-[400px]"}>
+                <div className={isFeatured ? "h-[280px] md:h-[350px]" : "h-[260px] md:h-[300px]"}>
                   <ImageSlider images={item.images} />
                 </div>
               </div>

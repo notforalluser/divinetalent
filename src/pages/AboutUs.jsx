@@ -1336,7 +1336,7 @@ export default function AboutUs() {
                 label: "Direct-to-decision-maker pitching"
               },
               {
-                src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=700&h=500&fit=crop",
+                src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=900&auto=format&fit=crop",
                 label: "Offers, sealed with confidence"
               }
             ].map((g, i) => (
@@ -1434,7 +1434,7 @@ export default function AboutUs() {
               <motion.img
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.5 }}
-                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&h=900&fit=crop"
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&auto=format&fit=crop"
                 alt="A candidate celebrating a successful career milestone"
                 className="h-80 w-full rounded-2xl object-cover shadow-xl"
                 style={{ border: '4px solid #1A1A1E' }}

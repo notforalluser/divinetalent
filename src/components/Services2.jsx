@@ -177,7 +177,7 @@ const services = [
     description:
       "We start with a one-on-one discussion to understand your goals, skills, and career vision. Then, we create a clear roadmap tailored just for you.",
     image:
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=900&auto=format&fit=crop&q=80",
     slug: "career-strategy-planning",
   },
   {
